@@ -27,7 +27,7 @@ def menu_multiplicar():
     return multiplicar(num, num2)
 
 def multiplicar(a, b):
-    return a * b
+    return a + b
 
 if __name__ == "__main__":
     main()
