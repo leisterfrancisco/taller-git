@@ -18,7 +18,7 @@ def menu_sumar():
     return sumar(num, num2)
 
 def sumar(a, b):
-    return a * b
+    return a + b
 
 
 if __name__ == "__main__":
