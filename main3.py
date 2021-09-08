@@ -20,8 +20,6 @@ def menu_sumar():
 def sumar(a, b):
     return a + b
 
-# hola mundo
-
 
 if __name__ == "__main__":
     main()
