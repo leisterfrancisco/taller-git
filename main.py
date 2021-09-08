@@ -20,6 +20,14 @@ def menu_sumar():
 def sumar(a, b):
     return a + b
 
+def menu_multiplicar():
+    print("Menu multiplicar")
+    num = int(input("Ingrese el primer factor: "))
+    num2 = int(input("Ingrese el segundo factor: "))
+    return multiplicar(num, num2)
+
+def multiplicar(a, b):
+    return a * b
 
 if __name__ == "__main__":
     main()
