@@ -10,6 +10,9 @@ def main():
     if value == 1:
         resultado = menu_sumar()
         print("El resultado de la suma es: " + str(resultado))
+    if value == 3:
+        resultado = menu_multiplicar()
+        print("El resultado de la multiplicación es: " + str(resultado))
 
 def menu_sumar():
     print("Menu sumar")
@@ -27,7 +30,7 @@ def menu_multiplicar():
     return multiplicar(num, num2)
 
 def multiplicar(a, b):
-    return a + b
+    return a * b
 
 if __name__ == "__main__":
     main()
